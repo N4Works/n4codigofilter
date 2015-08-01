@@ -47,5 +47,6 @@ describe('N4CodigoFilter', function()
     {
         expect(_codigoFilter(1, 2)).toEqual('01');
     });
+
   });
 });
