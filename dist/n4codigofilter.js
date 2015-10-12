@@ -1,11 +1,11 @@
-"use strict";
+;
+(function(ng) {
+  "use strict";
 
-;(function(ng)
-{
   ng
     .module('n4CodigoFilter', [])
-    .filter('Codigo', function () {
-      return function (codigo, tamanho, caractere) {
+    .filter('Codigo', function() {
+      return function(codigo, tamanho, caractere) {
         if (!codigo) {
           return '';
         }
@@ -26,4 +26,4 @@
         return codigo;
       };
     });
-}(angular))
+}(angular));
